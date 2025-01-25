@@ -18,6 +18,15 @@ func adjustArticles(txt string) string {
 		"for": true, "and": true, "nor": true, "but": true,
 		"or": true, "so": true, "yet": true,
 	}
+	// Adding exceptions for cases where 'an' is used even with consonant sounds.
+	articleExceptionsU := map[string]bool{
+		"universe": true, "unicode": true,
+	}
+
+	articleExceptionsH := map[string]bool{
+		"hour": true, "heir": true, "honest": true,
+	}
+
 	for i := 0; i < len(words); i++ {
 		word := words[i]
 		if strings.ToLower(word) == "a" || strings.ToLower(word) == "an" {
@@ -27,6 +36,24 @@ func adjustArticles(txt string) string {
 					result = append(result, word)
 					continue
 				}
+				if articleExceptionsU[strings.ToLower(nextWord)] {
+					if unicode.IsUpper(rune(word[0])) {
+						result = append(result, "A")
+					} else {
+						result = append(result, "a")
+					}
+					continue
+				}
+
+				if articleExceptionsH[strings.ToLower(nextWord)] {
+					if unicode.IsUpper(rune(word[0])) {
+						result = append(result, "An")
+					} else {
+						result = append(result, "an")
+					}
+					continue
+				}
+
 				if isSingleCharacter(nextWord) {
 					result = append(result, word)
 					continue
