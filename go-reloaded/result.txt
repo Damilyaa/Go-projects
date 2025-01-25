@@ -1,0 +1,72 @@
+// Testing articles
+
+an apple and a banana
+a language a language
+A language A language
+a LANGUAGE a LANGUAGE
+A LANGUAGE A LANGUAGE
+an air an Air
+An air An air
+an AIR an AIR
+An AIR AN AIR
+a a a a a
+A A A A
+a and c
+
+// Testing binary and hexadecimal conversions
+The value is 0x1A
+It has been 2 years
+30 files were added
+30 files were added
+It has been 2 years
+Simply add 66 and 2 and you will see the result is 68.
+Simply add 66 and 2 and you will see the result is 68.
+
+// Testing punctuation and spacing
+I "was" sitting over!?. there, and then BAMM!!!
+I was thinking... You were right
+I am exactly how they describe me: 'awesome' asdasdas
+As Elton John said: 'I am the most well-known homosexual in the world'
+
+There it was. An amazing rock! a sdasdsd
+2
+aaaaaaaaa. / / / /(-AAAA)AAAA*AAA&AAAA#AAAAAA@AAAAAAAAAAAAt
+asdsdsd (up, 101
+ad
+2
+
+// Testing quotes and dialogue
+don't
+'I can' t believe it 's already November,'
+"I can 't believe it' s already November," she said.
+'I can' t believe it 's already November,' she said.
+'I can`t believe it' s already November, '
+"I can 't believe it' s already November," she said.
+'I can`t believe it' s already November, ' she said.
+I was sitting over there, and then BAMM!!
+I was thinking... You were right
+hello, there
+"hello" "there"
+hi 'hi' hi
+hi 'hi' hi
+hi 'hi' hi
+hi 'hi' hi
+hi 'hi
+'hi' hi'
+
+// Testing capitalization and punctuation
+(cap, -8)
+a'
+
+// Testing articles again
+There it was. An amazing rock!
+
+// Testing punctuation and capitalization
+It was the best of times, it was the worst of TIMES, it was the age of wisdom, It Was The Age Of Foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of darkness, it was the spring of hope, it was the winter of despair.
+It was the best of times, it was the worst of TIMES, it was the age of wisdom, It Was The Age Of Foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of darkness, it was the spring of hope, it was the winter of despair.
+
+// Testing quotes and punctuation
+There is no greater agony than bearing an untold story inside you.
+There is no greater agony than bearing an untold story inside you.
+Punctuation tests are... kinda boring, don't you think!?
+Punctuation tests are... kinda boring, don't you think!?
