@@ -12,6 +12,8 @@ A AIR AN AIR
 a a a a a
 A A A A
 a and c
+a hour
+an universe
 
 // Testing binary and hexadecimal conversions
 
